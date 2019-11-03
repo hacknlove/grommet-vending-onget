@@ -11,7 +11,8 @@
   "license": "Apache-2.0",
   "authors": [
     "Chris Carlozzi",
-    "Eric Soderberg"
+    "Eric Soderberg",
+    "Antonio Fernández-Porrúa"
   ],
   "scripts": {
     "build": "PUBLIC_URL=/grommet-vending webpack --mode production",
@@ -22,8 +23,8 @@
   },
   "dependencies": {
     "grommet": "^2.0.1",
+    "onget": "^2.2.0",
     "grommet-icons": "^3.2.0",
-    "onget": "git+https://github.com/hacknlove/onGet.git#dev",
     "prop-types": "^15.6.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
