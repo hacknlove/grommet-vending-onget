@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import './API';
 import App from './App';
 
 const element = document.getElementById('content');

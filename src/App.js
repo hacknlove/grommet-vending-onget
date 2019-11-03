@@ -4,7 +4,6 @@ import {
   Grommet, Box, Grid, ResponsiveContext, grommet,
 } from 'grommet';
 
-import Server from './Server';
 import Header from './Header';
 import Add from './screens/Add';
 import Edit from './screens/Edit';
@@ -45,9 +44,7 @@ const Content = () => (
 export default () => (
   <Router basename="/grommet-vending">
     <Grommet theme={grommet}>
-      <Server>
-        <Content />
-      </Server>
+      <Content />
     </Grommet>
   </Router>
 );
